@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+    gostatic:
+      image: superdevofficial/gostatic:latest
+      container_name: gostatic
+      build: .
+      ports:
+        - "4200:8080"
